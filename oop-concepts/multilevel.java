@@ -13,3 +13,11 @@ class puppy extends dog {
         System.out.println("weeping...");
     }
 }
+public class multilevel {
+    public static void main(String args[]) {
+        puppy p = new puppy();
+        p.weep();
+        p.bark();
+        p.eat();
+    }
+} 
