@@ -1,4 +1,4 @@
-class Student {
+class DemoStudent {
     String name;
     int age;
 
@@ -10,7 +10,7 @@ class Student {
 public class StudentDemo {
     public static void main(String[] args) {
 
-        Student s1 = new Student();
+        DemoStudent s1 = new DemoStudent();
         s1.name = "Babin";
         s1.age = 19;
         s1.display();
