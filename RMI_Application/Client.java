@@ -11,6 +11,7 @@ public class Client {
             System.out.println("Result from server: " + result);
         } catch (Exception e) {
             e.printStackTrace();
+            System.out.println("An error occurred while communicating with the RMI server.");
         }
     }
 }
